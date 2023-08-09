@@ -43,7 +43,7 @@ section{
 }
 @media (prefers-reduced-motion: no-preference) {
     .App-logo:hover {
-      animation: App-logo-spin infinite 10s linear;
+      animation: App-logo-spin infinite 6s cubic-bezier(0.64, -0.43, 0, 1.26);
     }
   }
 .main-container h2{
