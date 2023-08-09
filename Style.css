@@ -41,6 +41,11 @@ section{
     margin-top: 35px;
     margin-left: 35px;
 }
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo:hover {
+      animation: App-logo-spin infinite 10s linear;
+    }
+  }
 .main-container h2{
     font-size: 2.0rem;
     color: #ffffff;
@@ -73,6 +78,7 @@ section{
     width: 100px;
     height: 35px;
     text-decoration: none;
+    
 }
 
 .lm1{ color: #e38826;
@@ -97,6 +103,13 @@ section{
     color: white;
     border: 1px solid white;
 }
-
+@keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
 
 
